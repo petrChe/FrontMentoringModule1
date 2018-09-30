@@ -1,0 +1,5 @@
+c:\users\petr_chebanenko\documents\visual studio 2012\Projects\FrontMentorigModule1\FrontMentorigModule1\bin\FrontMentorigModule1.dll
+c:\users\petr_chebanenko\documents\visual studio 2012\Projects\FrontMentorigModule1\FrontMentorigModule1\bin\FrontMentorigModule1.pdb
+c:\users\petr_chebanenko\documents\visual studio 2012\Projects\FrontMentorigModule1\FrontMentorigModule1\obj\Debug\FrontMentorigModule1.csprojResolveAssemblyReference.cache
+c:\users\petr_chebanenko\documents\visual studio 2012\Projects\FrontMentorigModule1\FrontMentorigModule1\obj\Debug\FrontMentorigModule1.dll
+c:\users\petr_chebanenko\documents\visual studio 2012\Projects\FrontMentorigModule1\FrontMentorigModule1\obj\Debug\FrontMentorigModule1.pdb
