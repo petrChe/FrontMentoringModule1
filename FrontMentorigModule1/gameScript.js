@@ -123,22 +123,19 @@ function updateScores() {
 
 function getScore(cards) {
     var result = 0;
-    var hasAce = false;
 
-    for (var i = 0; i < cards.length; i++) {
-        var card = cards[i];
-        result += getCardNumericValue(card);
+    result = cards.reduce(CalcResult, result)
 
-        if (card.value === 'Ace') {
-            hasAce = true;
-        }
-    }
+    return result;
+}
 
-    if (hasAce && result + 10 <= 21) {
+function CalcResult(result, card)
+{
+    if (card.value === 'Ace' && result + 10 <= 21) {
         return result + 10;
     }
 
-    return result;
+    return result + getCardNumericValue(card);
 }
 
 function getCardNumericValue(card) {
